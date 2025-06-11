@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional mostrando minha jornada de aprendizado em Desenvolvimento de Sistemas">
+    <meta name="keywords" content="portfolio, desenvolvedor, programação, timeline, aprendizado">
+    <meta property="og:title" content="Meu Portfólio Profissional">
+    <meta property="og:description" content="Linha do tempo do meu aprendizado em Desenvolvimento de Sistemas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seuportfolio.com">
+    <title>Meu Portfólio | Jornada em Desenvolvimento de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="sun-loader">
+            <div class="sun"></div>
+            <div class="ray ray1"></div>
+            <div class="ray ray2"></div>
+            <div class="ray ray3"></div>
+            <div class="ray ray4"></div>
+            <div class="ray ray5"></div>
+            <div class="ray ray6"></div>
+            <div class="ray ray7"></div>
+            <div class="ray ray8"></div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo" aria-label="Logo do portfólio">Portfólio</a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active" aria-label="Ir para início">Início</a>
+                    <a href="#learning" class="nav-link" aria-label="Ir para aprendizado">Aprendizado</a>
+                    <a href="#projects" class="nav-link" aria-label="Ir para projetos">Projetos</a>
+                    <a href="#expectations" class="nav-link" aria-label="Ir para expectativas vs realidade">Expectativas</a>
+                    <a href="#portfolio" class="nav-link" aria-label="Ir para portfólio">Portfólio</a>
+                    <a href="#contact" class="nav-link" aria-label="Ir para contato">Contato</a>
+                </div>
+                <button class="theme-toggle" aria-label="Alternar tema claro/escuro">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" aria-label="Menu mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" aria-label="Título principal">Olá, eu sou <span class="highlight">Guilherme Lima</span></h1>
+                <h2 class="hero-subtitle" aria-label="Subtítulo">Estudante de Desenvolvimento de Sistemas</h2>
+                <p class="hero-text" aria-label="Texto de introdução">Esta é minha jornada de aprendizado e crescimento durante o semestre na escola Senai Morvan Figueiredo. Cada projeto representa um passo em direção ao meu objetivo de me tornar um desenvolvedor web completo.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" aria-label="Ver projetos">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary" aria-label="Entrar em contato">Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="sun-animation">
+                    <div class="sun-core"></div>
+                    <div class="sun-rays"></div>
+                </div>
+                <div class="hero-illustration"></div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="learning">
+        <div class="container">
+            <h2 class="section-title" aria-label="Sobre mim">Minha Jornada de Aprendizado</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="floating-cards">
+                        <div class="card card-1"></div>
+                        <div class="card card-2"></div>
+                        <div class="card card-3"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Quem sou eu</h3>
+                    <p>Estudante de Desenvolvimento de Sistemas na Senai Morvan Figeuiredo, apaixonado por tecnologia e solução de problemas. Minha jornada começou com a apresentação desse mundo tecnologico de maneira mais aprofundada.</p>
+                    
+                    <h3>Objetivos do Semestre</h3>
+                    <ul class="goals-list">
+                        <li>Dominar os fundamentos de Design</li>
+                        <li>Aprendizado de Prototipagem</li>
+                        <li>Aprender desenvolvimento web front-end</li>
+                        <li>Desempenhar HTML e CSS</li>
+                        <li>Animar com KeyFrames</li>
+                    </ul>
+                    
+                    <div class="skills-progress">
+                        <h3>Progresso Atual</h3>
+                        <div class="progress-bar">
+                            <div class="progress-track">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                            <span>80% do semestre concluído</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Timeline Section -->
+    <section class="section timeline" id="projects">
+        <div class="container">
+            <h2 class="section-title" aria-label="Linha do tempo de projetos">Meus Projetos</h2>
+            <p class="section-subtitle">Cada projeto representa um marco no meu aprendizado</p>
+            
+            <div class="timeline-container">
+              <!-- Project 1 -->
+<div class="timeline-item">
+                    <div class="timeline-date">Abril 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Breve resumo sobre nossos conteúdos de design.</h3>
+                        <div class="timeline-image">
+                           
+                        </div>
+                        <div class="timeline-details">
+                            <h4>Tecnologias Utilizadas</h4>
+                            <ul class="tech-tags">
+                                <li>Figma</li>
+                               
+                            </ul>
+                            
+                            
+                            <p>Aqui tem um breve resumo sobre o que aprendemos de conteúdo, focando mais no design web.</p>
+                            
+
+                            
+                            <div class="timeline-links">
+                          <a href=https://www.figma.com/design/q9vDlF1urpymWG78qw5DR4/Untitled?node-id=0-1&t=wCB94dGpNL3gnGGL-1 class="btn btn-small" aria-label="Ver projeto 1" target="_blank">Ver conteúdo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+<div class="timeline-item">
+    <div class="timeline-date">Março 2025</div>
+    <div class="timeline-content">
+        <h3 class="timeline-title">Projeto 1: Aplicativo de Música</h3>
+        <div class="timeline-image">
+            <img src="img/Proto.html" alt="">
+        </div>
+        <div class="timeline-details">
+            <h4>Tecnologias Utilizadas</h4>
+            <ul class="tech-tags">
+                <li>Figma</li>
+            </ul>
+            
+            <h4>Desafios</h4>
+            <p>Não tive tantos desafios ao prototipar esse aplicativo junto do meu grupo, mas tentamos fazer algo inovador: literalmente adicionar música ao projeto, o que foi difícil, mas concluímos com êxito.</p>
+            
+            <h4>Aprendizados</h4>
+            <p>Com esse projeto tivemos uma noção maior tanto em design quanto em prototipagem, mas o que eu posso dizer com certeza referente a essa atividade é que ele aumentou exponencialmente nosso conhecimento sobre a tecnologia que é o figma.</p>
+            
+            <div class="timeline-links">
+                <a href="https://www.figma.com/design/p347WA8xGMuBLpgREQhHjX/App-Deez?node-id=7-3&t=dAkRjOgCP0fAhYrG-1" class="btn btn-small" aria-label="Ver projeto 1" target="_blank">Ver Projeto</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Project 3 -->
+<div class="timeline-item">
+                    <div class="timeline-date">Maio 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Tipos de Chocolates</h3>
+                        <div class="timeline-image">
+                           
+                        </div>
+                        <div class="timeline-details">
+                            <h4>Tecnologias Utilizadas</h4>
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                               <li>CSS</li>
+                            </ul>
+                            
+                            <h4>Desafios</h4>
+                            <p>Esse site não teve tantos desafios, ele na verdade foi feito apenas para ampliar nossos conhecimentos sobre o HTML e o CSS.</p>
+                            
+                            <h4>Aprendizados</h4>
+                            <p>Esse projeto me estimulou a aprender mais sobre HTML e CSS, mas dando um foco maior nas "sections", ele foi de grande ajuda para ampliar meus conhecimentos sobre essas tecnologias.</p>
+
+
+                            
+                            <div class="timeline-links">
+                          <a href=https://guilherme120609.github.io/Chocolate/ class="btn btn-small" aria-label="Ver projeto 1" target="_blank">Ver projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+<div class="timeline-item">
+                    <div class="timeline-date">Maio 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Formas CSS</h3>
+                        <div class="timeline-image">
+                           
+                        </div>
+                        <div class="timeline-details">
+                            <h4>Tecnologias Utilizadas</h4>
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                               <li>CSS</li>
+                               <li>Keyframes</li>
+                            </ul>
+                            
+                            <h4>Desafios</h4>
+                            <p>Aqui eu tive o desafio de usar as formas no CSS para fazer layouts diferentes, o que causou certa estranheza de inicio mas consegui finalizar.</p>
+                            
+                            <h4>Aprendizados</h4>
+                            <p>Meu aprendizado inteiro nessa atividade foi sobre como usar as formas no css e maneira diversas de suas aplicações.</p>
+
+
+                            
+                            <div class="timeline-links">
+                          <a href=https://guilherme120609.github.io/Formas/ class="btn btn-small" aria-label="Ver projeto 1" target="_blank">Ver projeto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Expectations vs Reality Section -->
+    <section class="section expectations" id="expectations">
+        <div class="container">
+            <h2 class="section-title" aria-label="Expectativas vs realidade">Expectativas vs Realidade</h2>
+            <div class="comparison-grid">
+                <div class="expectation-card">
+                    <h3>Expectativas Iniciais</h3>
+                    <ul class="expectation-list">
+                        <li>Aprendizado linear e "repetitivo"</li>
+                        <li>Domínio demorado das tecnologias</li>
+                        <li>Projetos mais simples</li>
+                        <li>Menos desafios inesperados</li>
+                        <li>Mais tempo para cada tópico</li>
+                    </ul>
+                </div>
+                <div class="reality-card">
+                    <h3>Realidade Vivida</h3>
+                    <ul class="reality-list">
+                        <li>Aprendizado em curva exponencial</li>
+                        <li>Necessidade de prática rapída, porém constante</li>
+                        <li>Projetos complexos e desafiadores</li>
+                        <li>Muitos problemas inesperados</li>
+                        <li>Gerenciamento de tempo crucial</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="reflection">
+                <h3>Minha Reflexão</h3>
+                <p>Creio que, mesmo tendo pouco tempo de curso, ele realmente me surpreendeu. Acho que sofri por antecipação com algo que não deveria — a realidade do curso foi bem mais agradável do que a expectativa assombrosa que criei.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="portfolio">
+        <div class="container">
+            <h2 class="section-title" aria-label="Habilidades adquiridas">Habilidades Adquiridas</h2>
+            <div class="skills-container">
+                <div class="skills-chart">
+                    <div class="chart-container">
+                        <canvas id="skillsChart" aria-label="Gráfico de habilidades"></canvas>
+                    </div>
+                </div>
+                <div class="skills-description">
+                    <h3>Evolução Técnica</h3>
+                    <p>Durante o semestre, adquiri diversas habilidades técnicas e comportamentais que me transformaram como desenvolvedor.</p>
+                    
+                    <div class="skill-categories">
+                        <div class="category">
+                            <h4>Técnicas</h4>
+                            <ul>
+                                <li>Prototipagem</li>
+                                <li>HTML5 Semântico</li>
+                                <li>CSS Avançado</li>
+                                <li>Keyframes</li>
+                                <li>Versionamento com Git</li>
+                            </ul>
+                        </div>
+                        <div class="category">
+                            <h4>Comportamentais</h4>
+                            <ul>
+                                <li>Trabalho em Equipe</li>
+                                <li>Gestão de Tempo</li>
+                                <li>Resolução de Problemas</li>
+                                <li>Comunicação Técnica</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" aria-label="Entre em contato">Vamos Conversar</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>guilherme.lima.m2009@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 94249-8269</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo, SP</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Guilherme120609" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/guilherme-lima-fonseca-2b2442307/" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/guilherme_l1214?igsh=bG4xbzkyaXE3eDVs" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" aria-label="Formulário de contato">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required aria-label="Seu nome">
+                            <label for="name">Seu Nome</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required aria-label="Seu email">
+                            <label for="email">Seu Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required aria-label="Sua mensagem"></textarea>
+                            <label for="message">Sua Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" aria-label="Enviar mensagem">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" aria-label="Voltar ao topo">Portfólio</a>
+                    <p>Jornada de Aprendizado em Desenvolvimento de Sistemas</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home" aria-label="Ir para início">Início</a></li>
+                        <li><a href="#learning" aria-label="Ir para aprendizado">Aprendizado</a></li>
+                        <li><a href="#projects" aria-label="Ir para projetos">Projetos</a></li>
+                        <li><a href="#expectations" aria-label="Ir para expectativas">Expectativas</a></li>
+                        <li><a href="#contact" aria-label="Ir para contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-credits">
+                    <p>&copy; 2025 Guilherme Lima Fonseca. Todos os direitos reservados.</p>
+                    <p>Desenvolvido com ❤️ e muito café</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
